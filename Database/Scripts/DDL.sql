@@ -21,7 +21,7 @@ CREATE TABLE vendor(
     image_url VARCHAR(255),
     rating NUMERIC(2,1),
     CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
-    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View')),
     CHECK (street_num >= 1),
     CHECK (building_num >= 1),
     CHECK (bank_account like 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]'),
@@ -42,7 +42,7 @@ CREATE TABLE delivery_radius(
     area VARCHAR(30) NOT NULL,
     FOREIGN KEY (ID) REFERENCES vendor(ID),
     CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
-    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view'))
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View'))
 );
 
 CREATE TABLE item(
@@ -75,7 +75,7 @@ CREATE TABLE rider(
     bank_account CHAR(24) NOT NULL,
     live_location VARCHAR(255),
     CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
-    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View')),
     CHECK (street_num >= 1),
     CHECK (building_num >= 1),
     CHECK (vehicle_type in ('Car', 'Motorcycle', 'Bicycle', 'Rickshaw')),
@@ -100,7 +100,7 @@ CREATE TABLE consumer(
     email_id VARCHAR(50) NOT NULL,
     gender VARCHAR(6) NOT NULL,
     CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
-    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View')),
     CHECK (street_num >= 1),
     CHECK (building_num >= 1),
     CHECK (gender in ('Male', 'Female', 'Other')),
