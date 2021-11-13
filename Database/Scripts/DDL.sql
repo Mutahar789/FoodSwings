@@ -160,6 +160,7 @@ CREATE TABLE transaction(
     orders_ID INT NOT NULL,
     payment_method VARCHAR(6) NOT NULL,
     credit_card_num VARCHAR(16),
+    FOREIGN KEY orders_ID REFERENCES orders(ID),
     FOREIGN KEY (credit_card_num) REFERENCES credit_card(credit_card_num),
     CHECK (payment_method in ('Online', 'Cash'))
 );
