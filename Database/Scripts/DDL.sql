@@ -132,7 +132,7 @@ CREATE TABLE orders(
     rider_ID INT NOT NULL,
     status VARCHAR(10) NOT NULL,
     value INT NOT NULL,
-    rating NUMERIC(2, 1) NOT NULL,
+    rating NUMERIC(2, 1),
     placed TIMESTAMP NOT NULL,
     delivered TIMESTAMP NOT NULL,
     FOREIGN KEY (vendor_ID) REFERENCES vendor(ID),
