@@ -1,13 +1,13 @@
-DROP TABLE IF EXISTS vendor;
 DROP TABLE IF EXISTS phone;
 DROP TABLE IF EXISTS delivery_radius;
 DROP TABLE IF EXISTS ordered_item;
 DROP TABLE IF EXISTS item;
-DROP TABLE IF EXISTS order;
+DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS transaction;
-DROP TABLE IF EXISTS consumer;
 DROP TABLE IF EXISTS rider;
 DROP TABLE IF EXISTS credit_card;
+DROP TABLE IF EXISTS vendor;
+DROP TABLE IF EXISTS consumer;
 
 CREATE TABLE vendor(
     ID INT AUTO_INCREMENT PRIMARY KEY,
@@ -20,19 +20,19 @@ CREATE TABLE vendor(
     bank_account CHAR(24) NOT NULL,
     image_url VARCHAR(255),
     rating NUMERIC(2,1),
-    CHECK city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta'),
-    CHECK area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view'),
-    CHECK street_num >= 1,
-    CHECK building_num >= 1,
-    CHECK bank_account like 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]',
-    CHECK email_id like('%@%')
+    CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (street_num >= 1),
+    CHECK (building_num >= 1),
+    CHECK (bank_account like 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]'),
+    CHECK (email_id like('%@%'))
 );
 
 CREATE TABLE phone(
     phone_num CHAR(11) PRIMARY KEY,
     ID INT NOT NULL,
     FOREIGN KEY (ID) REFERENCES vendor(ID),
-    CHECK phone_num like '03[0-999999999]'
+    CHECK (phone_num like '03[0-999999999]')
     
 );
 
@@ -41,8 +41,8 @@ CREATE TABLE delivery_radius(
     city VARCHAR(15) NOT NULL,
     area VARCHAR(30) NOT NULL,
     FOREIGN KEY (ID) REFERENCES vendor(ID),
-    CHECK city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta'),
-    CHECK area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')
+    CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view'))
 );
 
 CREATE TABLE item(
@@ -54,8 +54,8 @@ CREATE TABLE item(
     description VARCHAR(250),
     PRIMARY KEY (ID, name),
     FOREIGN KEY (ID) REFERENCES vendor(ID),
-    CHECK price >= 1,
-    CHECK category in ('Desi', 'Chinese', 'Fast Food', 'Arabic', 'Italian')
+    CHECK (price >= 1),
+    CHECK (category in ('Desi', 'Chinese', 'Fast Food', 'Arabic', 'Italian'))
 );
 
 CREATE TABLE rider(
@@ -74,16 +74,16 @@ CREATE TABLE rider(
     gender VARCHAR(6) NOT NULL,
     bank_account CHAR(24) NOT NULL,
     live_location VARCHAR(255),
-    CHECK city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta'),
-    CHECK area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view'),
-    CHECK street_num >= 1,
-    CHECK building_num >= 1,
-    CHECK vehicle_type in ('Car', 'Motorcycle', 'Bicycle', 'Rickshaw'),
-    CHECK vehicle_registration_num like '[A-Z]%',
-    CHECK gender in ('Male', 'Female', 'Other'),
-    CHECK email_id like('%@%'),
-    CHECK phone_num like '03[0-999999999]',
-    CHECK bank_account like 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]'
+    CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (street_num >= 1),
+    CHECK (building_num >= 1),
+    CHECK (vehicle_type in ('Car', 'Motorcycle', 'Bicycle', 'Rickshaw')),
+    CHECK (vehicle_registration_num like '[A-Z]%'),
+    CHECK (gender in ('Male', 'Female', 'Other')),
+    CHECK (email_id like('%@%')),
+    CHECK (phone_num like '03[0-999999999]'),
+    CHECK (bank_account like 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]')
 );
 
 CREATE TABLE consumer(
@@ -99,14 +99,14 @@ CREATE TABLE consumer(
     wallet INT DEFAULT 0 NOT NULL,
     email_id VARCHAR(50) NOT NULL,
     gender VARCHAR(6) NOT NULL,
-    CHECK city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')
-    CHECK area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view'),
-    CHECK street_num >= 1,
-    CHECK building_num >= 1,
-    CHECK gender in ('Male', 'Female', 'Other'),
-    CHECK phone_num like '03[0-999999999]',
-    CHECK email_id like('%@%'),
-    CHECK wallet >= 1
+    CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faislabad', 'Sialkot', 'Peshawar', 'Quetta')),
+    CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea view')),
+    CHECK (street_num >= 1),
+    CHECK (building_num >= 1),
+    CHECK (gender in ('Male', 'Female', 'Other')),
+    CHECK (phone_num like '03[0-999999999]'),
+    CHECK (email_id like('%@%')),
+    CHECK (wallet >= 1)
 );
 
 CREATE TABLE credit_card(
@@ -118,51 +118,50 @@ CREATE TABLE credit_card(
     type VARCHAR(10) NOT NULL,
     PRIMARY KEY(credit_card_num),
     FOREIGN KEY (ID) REFERENCES consumer(ID),
-    CHECK cvc like '[0-9][0-9][0-9]',
-    CHECK credit_card_num like '[0-999999999999]',
-    CHECK expiry_date_month like '[0-99]',
-    CHECK expiry_date_year like '[0-9999]',
-    CHECK type in ('Visa', 'Master')
+    CHECK (cvc like '[0-9][0-9][0-9]'),
+    CHECK (credit_card_num like '[0-999999999999]'),
+    CHECK (expiry_date_month like '[0-99]'),
+    CHECK (expiry_date_year like '[0-9999]'),
+    CHECK (type in ('Visa', 'Master'))
 );
 
-CREATE TABLE order(
+CREATE TABLE orders(
     ID INT AUTO_INCREMENT PRIMARY KEY,
-    vendor.ID INT NOT NULL,
-    consumer.ID INT NOT NULL,
-    rider.ID INT NOT NULL,
+    vendor_ID INT NOT NULL,
+    consumer_ID INT NOT NULL,
+    rider_ID INT NOT NULL,
     status VARCHAR(10) NOT NULL,
     value INT NOT NULL,
     rating NUMERIC(2, 1) NOT NULL,
     placed TIMESTAMP NOT NULL,
     delivered TIMESTAMP NOT NULL,
-    FOREIGN KEY (vendor.ID) REFERENCES vendor(ID),
-    FOREIGN KEY (consumer.ID) REFERENCES consumer(ID),
-    FOREIGN KEY (rider.ID) REFERENCES rider(ID),
-    CHECK status in ('Delivered', 'Picked up', 'Preparing', 'Cancelled'),
-    CHECK value >= 1,
-    CHECK rating >= 0 AND rating <= 5
+    FOREIGN KEY (vendor_ID) REFERENCES vendor(ID),
+    FOREIGN KEY (consumer_ID) REFERENCES consumer(ID),
+    FOREIGN KEY (rider_ID) REFERENCES rider(ID),
+    CHECK (status in ('Delivered', 'Picked up', 'Preparing', 'Cancelled')),
+    CHECK (value >= 1),
+    CHECK (rating >= 0 AND rating <= 5)
 );
 
 
 CREATE TABLE ordered_item(
-    order.ID INT NOT NULL,
-    vendor.ID INT NOT NULL,
+    orders_ID INT NOT NULL,
+    vendor_ID INT NOT NULL,
     name VARCHAR(30) NOT NULL,
     quantity INT NOT NULL,
-    PRIMARY KEY (order.ID, vendor.ID),
-    FOREIGN KEY (order.ID) REFERENCES order(ID),
-    FOREIGN KEY (vendor.ID) REFERENCES vendor(ID),
-    CHECK quantity >= 1
+    PRIMARY KEY (orders_ID, vendor_ID),
+    FOREIGN KEY (orders_ID) REFERENCES orders(ID),
+    FOREIGN KEY (vendor_ID) REFERENCES vendor(ID),
+    CHECK (quantity >= 1)
 );
 
 CREATE TABLE transaction(
     ID INT AUTO_INCREMENT PRIMARY KEY,
-    order.ID INT NOT NULL,
+    orders_ID INT NOT NULL,
     payment_method VARCHAR(6) NOT NULL,
     credit_card_num VARCHAR(16),
-    FOREIGN KEY credit_card_num REFERENCES credit_card(credit_card_num),
-    CHECK payment_method in ('Online', 'Cash')
-
+    FOREIGN KEY (credit_card_num) REFERENCES credit_card(credit_card_num),
+    CHECK (payment_method in ('Online', 'Cash'))
 );
 
 
