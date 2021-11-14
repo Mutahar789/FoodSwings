@@ -1,0 +1,83 @@
+<head>
+    <title> My first webpage </title>
+    <style>
+        img{
+            width : 300px;
+            border-radius: 200px;
+            float:inline-start;
+            
+            margin-right: 10px;
+        }
+    </style> 
+</head>
+<img src="images/FoodSwings logo.png" alt=" Food Swings logo">
+
+<form action = "process.php" method = "POST">
+    <h4> Rider's Personal Information</h4>
+    <label>Gender</label>
+    <select> name = "gender"
+    <option value=" Male">Male</option>
+    <option value=" Female">Female</option>
+    <option value=" Other">Other</option>
+    </select>
+    <br>
+    <br>
+    <label> First Name </label> 
+    <input type = "text" name = "firstName" >
+    <label> Middle Name </label>
+    <input type = "text" name = "Middle Name" >
+    <label> Last Name </label> 
+    <input type = "text" name = "lastName" >
+    <br>
+    <br>
+    <label>Email </label>
+    <input type  = "email" name = "email">
+    <br>
+    <br>
+    <label> Date of Birth: </label>
+    <input type = "date" name = "Date of Birth: " >
+    <br>
+    <br>
+    <label> Phone Number</label>
+    <input type ="tel" name = "Phone Number " >
+    <br>
+    <br>
+    <label> Bank Account Number </label>
+    <input type ="text" name = "Bank Account Number" >
+    
+    </select> 
+    <h4> Rider's Address</h4>
+    <label> Building Number with sector </label>
+    <input type = "text" name = "Building Number" >
+    <br>
+    <br>
+    <label> Street number </label>
+    <input type = "number" name = "Street Number" >
+    <br>
+    <br>
+    <label> Area </label>
+    <input type = "text" name = "Area" >
+    <br>
+    <br>
+    <label> City </label>
+    <input type = "text" name = "City" >
+    <br>
+    <br>
+    <h4> Rider's Vehicle Information </h4>
+    <label> Vehicle Type</label>
+    <select>
+    name="Vehicle Type"
+    <option value=" Motorbike">Motorbike</option>
+    <option value=" Car">Car</option>
+    </select>  
+    <br>
+    <br>
+    <label> Vehicle's Registeration Number</label>
+    <input type ="text" name = "Vehicle's Registeration Number" >
+    <br>
+    <br>
+    <input type = "submit" name = "Submit" value=" Sign in">
+    
+    
+
+</form>
