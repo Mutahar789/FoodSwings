@@ -21,6 +21,7 @@ CREATE TABLE vendor(
     street_num SMALLINT NOT NULL,
     building_num SMALLINT NOT NULL,
     email_id VARCHAR(50) NOT NULL,
+    password CHAR(64) NOT NULL,
     bank_account CHAR(24) NOT NULL,
     image_url VARCHAR(255),
     rating NUMERIC(2,1),
@@ -28,8 +29,7 @@ CREATE TABLE vendor(
     CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View')),
     CHECK (street_num >= 1),
     CHECK (building_num >= 1),
-    CHECK (REGEXP_LIKE(bank_account, 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]')),
-    CHECK (email_id like '%@%')
+    CHECK (REGEXP_LIKE(bank_account, 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]'))
 );
 
 CREATE TABLE phone(
@@ -75,6 +75,7 @@ CREATE TABLE rider(
     vehicle_registration_num VARCHAR(10) NOT NULL,
     phone_num CHAR(11) NOT NULL,
     email_id VARCHAR(50) NOT NULL,
+    password CHAR(64) NOT NULL,
     gender VARCHAR(6) NOT NULL,
     bank_account CHAR(24) NOT NULL,
     live_location VARCHAR(255),
@@ -85,7 +86,6 @@ CREATE TABLE rider(
     CHECK (vehicle_type in ('Car', 'Motorcycle', 'Bicycle', 'Rickshaw')),
     CHECK (REGEXP_LIKE(vehicle_registration_num, '^[A-Z]')),
     CHECK (gender in ('Male', 'Female', 'Other')),
-    CHECK (email_id like '%@%'),
     CHECK (REGEXP_LIKE(phone_num, '03[0-999999999]')),
     CHECK (REGEXP_LIKE(bank_account, 'PK[0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9999999999999999]'))
 );
@@ -102,6 +102,7 @@ CREATE TABLE consumer(
     phone_num CHAR(11) NOT NULL,
     wallet INT DEFAULT 0 NOT NULL,
     email_id VARCHAR(50) NOT NULL,
+    password CHAR(64) NOT NULL,
     gender VARCHAR(6) NOT NULL,
     CHECK (city in ('Islamabad', 'Lahore', 'Karachi', 'Faisalabad', 'Sialkot', 'Peshawar', 'Quetta')),
     CHECK (area in ('Gulberg', 'Defence', 'Model Town', 'Johar Town', 'Sea View')),
@@ -109,7 +110,6 @@ CREATE TABLE consumer(
     CHECK (building_num >= 1),
     CHECK (gender in ('Male', 'Female', 'Other')),
     CHECK (REGEXP_LIKE(phone_num, '03[0-999999999]')),
-    CHECK (email_id like '%@%'),
     CHECK (wallet >= 0)
 );
 
