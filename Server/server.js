@@ -13,3 +13,10 @@ app.get('/login', (req, res) => {
 	res.status(200).send('Login page')
 })
 
+app.get('/signup', (req, res) => {
+	res.status(200).send('Signup page')
+})
+
+app.get('/login', (req, res) => {
+	res.status(200).send('Login page')
+})
