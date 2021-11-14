@@ -9,13 +9,14 @@ const CityDistance = () => {
         ev.preventDefault()
         if(username && Pw){
             const info = {
+                type : 'login',
                 uname : username,
                 password : Pw
             }
             ws.send(JSON.stringify(info))
-            setUsername('')
-            setPw('')
         }
+        setUsername('')
+        setPw('')
     }
 
     const usernameChange = (ev) => {
@@ -29,9 +30,9 @@ const CityDistance = () => {
         <form onSubmit={formSubmit}>
             <h1>Login</h1>
             <h2>Username:</h2>
-            <input type="Email" onChange={usernameChange} />
+            <input type="Email" value={username} onChange={usernameChange} />
             <h2>Password:</h2>
-            <input type="text" onChange={passwordChange} />
+            <input type="text" value={Pw} onChange={passwordChange} />
             <h2> </h2>
             <input type="submit" />
         </form>
