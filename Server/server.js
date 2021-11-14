@@ -6,7 +6,7 @@ app.listen(8080, () => {
 })
 
 app.get('/', (req, res) => {
-	res.status(200).send('Home page')
+	res.status(200).send('Welcome to Food Swings')
 })
 
 app.get('/login', (req, res) => {
