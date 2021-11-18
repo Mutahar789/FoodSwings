@@ -9,3 +9,16 @@ Run command "node server.js" in backend directory
 
 # Step3: Open web app in browser
 Run command "npm run start" in frontend directory
+
+
+Deliberable 1:
+Use Cases implemented:
+Login:
+- Vendorlogin
+- Consumer login
+- Rider login
+
+Sign up:
+- Vendor Sign up
+- Rider Sign up
+- Consumer Sign up
