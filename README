@@ -9,3 +9,13 @@ Run command "node server.js" in backend directory
 
 Step3: Open web app in browser
 Run command "npm run start" in frontend directory
+
+
+Deliverable 2:
+Significant feature updates:
+  -> Browse restaurants
+  -> View Vendor menu
+  -> Add items to shopping cart
+  -> View and remove items from shopping cart
+  -> Json Web Token and authentication upon Login and Signup
+  
