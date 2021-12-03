@@ -1,0 +1,42 @@
+Pizza, Chicken Tikka Pizza, https://thumbs.dreamstime.com/b/homemade-indian-chicken-tikka-masala-pizza-onions-cilantro-homemade-indian-chicken-tikka-masala-pizza-221590330.jpg
+Pizza, Chicken Fajita Pizza, "https://shahicup.pk/wp-content/uploads/2020/06/fajita.png"
+Pizza, All Cheese Pizza, https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg
+Pizza, BBQ Pizza, https://media.istockphoto.com/photos/homemade-barbecue-chicken-pizza-picture-id484811667?k=20&m=484811667&s=612x612&w=0&h=up7-VIUv4h4LtcZFwAi63BCO8pKr77HI60aJv0SvxLw=
+Pizza, Vegatable Pizza, https://static.toiimg.com/thumb/53335859.cms?width=1200&height=900
+Pizza, Peri Peri Pizza, https://www.dominos.com.au/ManagedAssets/AU/product/P223/AU_P223_en_hero_4055.jpg?v-233754517
+Pizza, Peperroni Pizza, https://www.moulinex-me.com/medias/?context=bWFzdGVyfHJvb3R8MTQzNTExfGltYWdlL2pwZWd8aDM2L2g1Mi8xMzA5NzI3MzI2MjExMC5qcGd8N2MxZDhmNmI5ZTgzZDZlZWQyZGQ4YjFlZjUyNDlkMTExYjdkZDdlZmFkY2I0N2NmNjljOGViNmExZjIyMDU4Yw
+Pizza, Stuffed Crust Pizza, https://c8.alamy.com/comp/E1CG40/a-chicago-style-deep-dish-stuffed-pizza-from-giordanos-pizzeria-in-E1CG40.jpg
+Burger, Chicken Fillet Burger, https://t3.ftcdn.net/jpg/03/31/97/12/360_F_331971227_4qWv5G4sZXVWkFlzOAuGk9VYInKV3d4x.jpg
+Burger, Zinger Burger, https://pizzamaster.pk/Content/images/Products/Web/zinger%20burger.JPG
+Burger, Beef Burger, https://static.fanpage.it/wp-content/uploads/sites/22/2021/09/beef-burger.jpg
+Burger, Corden Bleu Burger, https://galbanicheese.com/wp-content/uploads/2019/09/RB_chicken-cordon-bleu-burger-e1559914791969-800x600.jpg
+Burger, Molten Lava Burger, https://trending.pk/wp-content/uploads/2018/03/cheese-bomb-cheese-lava-burger-cafe-royale-lahore.jpg
+Burger, Cheeto Burger, https://diyjoy.com/wp-content/uploads/2020/07/Flamin-Hot-Cheetos-Chicken-Sandwich-Recipe.jpg
+Burger, Fish Burger, https://freshstore.pk/Content/Products/ProductImages/12955/Fish--Burger1.jpg
+Burger, Mighty Zinger Burger, https://i1.wp.com/www.charcoalgravel.com/wp-content/uploads/2019/02/zinger-e1549975803611-500x300.jpg
+Pasta, Lasagna, https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg
+Pasta, Mac n Cheese, https://www.spendwithpennies.com/wp-content/uploads/2021/10/Homemade-Mac-and-Cheese-Casserole-SpendWithPennies-12.jpg
+Pasta, Alfredo Fettucini, https://storage.googleapis.com/gen-atmedia/3/2017/10/c54907276a7cb6e0545ae2128bdc984e86b6cb9d.jpeg
+Pasta, Red Sauce Pasta, https://static.toiimg.com/thumb/59695981.cms?width=1200&height=900
+Pasta, Ravioli Pasta, https://somuchfoodblog.com/wp-content/uploads/2018/10/92628-rav4-e1587999687709-scaled.jpg
+Pasta, Tomato and Spinach Pasta, https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl.jpg
+Pasta, Tortellini Pasta, https://images.kitchenstories.io/wagtailOriginalImages/R2415-photo-final-1/R2415-photo-final-1-large-landscape-150.jpg
+Pasta, Spaghetti Bolognese, https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-square-FS-0204.jpg
+Desi, Chicken Karahi, https://recipe52.com/wp-content/uploads/2018/04/Chicken-Karahi-Recipe-Pakistani-1-of-1.jpg
+Desi, Chicken Makhni Handi, https://handivn.com/wp-content/uploads/2020/03/chicken-makhni-handi.jpg
+Desi, Mutton Karahi, https://funcooking.co.uk/wp-content/uploads/2018/07/Lahori-karahi-77.jpg
+Desi, Biryani, https://hamariweb.com/recipes/images/recipeimages/3464.jpg
+Desi, Malai Boti, https://dailydukan.pk/wp-content/uploads/2018/10/96512689_1772343479574055_6302534120815722496_n.jpg
+Desi, Tikka Piece, https://tawaqqo.com/wp-content/uploads/2020/10/9-1.png
+Desi, Nihari, https://i.ndtvimg.com/i/2017-06/nihari_650x400_81498470650.jpg
+Desi, Daal Mash, https://www.masala.tv/wp-content/uploads/2016/05/Masalaydaar-Daal-Mash.jpg
+Desserts, Chocolate Fudge Cake, https://static.toiimg.com/thumb/53096885.cms?width=1200&height=900
+Desserts, Chocolate Chip Cookies, https://static01.nyt.com/images/2020/10/15/dining/DL-chocolate-chip-cookies-horizontal-print/merlin_23916029_87731399-2cde-458d-997f-afdeadb76ecd-articleLarge.jpg
+Desserts, Gulab Jaman, https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg/1200px-Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg
+Desserts, Fudge Brownie, https://bakerbynature.com/wp-content/uploads/2020/04/Cocoa-Fudge-Brownies-1-of-1.jpg
+Desserts, Doughnuts, https://i2.wp.com/completelydelicious.com/wp-content/uploads/2021/02/yeast-raised-doughnuts-6.jpg
+Desserts, Icecream Sundae, https://dinnerthendessert.com/wp-content/uploads/2021/02/Ice-Cream-Sundae-2.jpg
+Desserts, Zarda, https://kfoods.com/images1/newrecipeicon/zarda_227.jpg
+Desserts, Halwa, https://static.toiimg.com/thumb/61590259.cms?imgsize=482788&width=800&height=800
+
+
