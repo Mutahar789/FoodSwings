@@ -1,7 +1,7 @@
 # Database:
 To create the database on your local machine, run command:
 
-    python Database/Scripts/main.py 
+    python Database/createDB/main.py 
 from the root directory
 
 ### Database Schema
