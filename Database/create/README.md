@@ -3,6 +3,9 @@
 ### main.py:
 Python script used to populate Mysql database
 
+### dataFiles:
+Data for populating the database
+
 ### Details:
 1000 entries in vendor, consumer and rider table, 
 7500 entries in orders table, 
