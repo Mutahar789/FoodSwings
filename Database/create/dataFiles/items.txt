@@ -1,0 +1,40 @@
+850|Pizza|Chicken Tikka Pizza|A unique combination of our all-new cheese mayo base topped with tikka chunks, onions, and Jalapenos|https://thumbs.dreamstime.com/b/homemade-indian-chicken-tikka-masala-pizza-onions-cilantro-homemade-indian-chicken-tikka-masala-pizza-221590330.jpg
+850|Pizza|Chicken Fajita Pizza|A unique combination of our all-new cheese mayo base topped with spicy chunks, green peppers, and green chilies|https://shahicup.pk/wp-content/uploads/2020/06/fajita.png
+910|Pizza|All Cheese Pizza|Cheese and cheese with some more cheese|https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg
+870|Pizza|BBQ Pizza|A unique combination of our all-new peri peri base topped with BBQ chunks|https://media.istockphoto.com/photos/homemade-barbecue-chicken-pizza-picture-id484811667?k=20&m=484811667&s=612x612&w=0&h=up7-VIUv4h4LtcZFwAi63BCO8pKr77HI60aJv0SvxLw=
+850|Pizza|Vegatable Pizza|Onions, tomatoes, green peppers, mushrooms and olives|https://static.toiimg.com/thumb/53335859.cms?width=1200&height=900
+850|Pizza|Peri Peri Pizza|A unique combination of our all-new peri peri base topped with chicken chunks and peri peri sauce|https://www.dominos.com.au/ManagedAssets/AU/product/P223/AU_P223_en_hero_4055.jpg?v-233754517
+850|Pizza|Peperroni Pizza|100% lean ground beef peperroni|https://www.moulinex-me.com/medias/?context=bWFzdGVyfHJvb3R8MTQzNTExfGltYWdlL2pwZWd8aDM2L2g1Mi8xMzA5NzI3MzI2MjExMC5qcGd8N2MxZDhmNmI5ZTgzZDZlZWQyZGQ4YjFlZjUyNDlkMTExYjdkZDdlZmFkY2I0N2NmNjljOGViNmExZjIyMDU4Yw
+950|Pizza|Stuffed Crust Pizza|What's better than our cream-cheese stuffed pizza?|https://c8.alamy.com/comp/E1CG40/a-chicago-style-deep-dish-stuffed-pizza-from-giordanos-pizzeria-in-E1CG40.jpg
+620|Burger|Chicken Fillet Burger|A crispy breaded chicken fillet topped with sauces in our freshly baked braided bun|https://t3.ftcdn.net/jpg/03/31/97/12/360_F_331971227_4qWv5G4sZXVWkFlzOAuGk9VYInKV3d4x.jpg
+620|Burger|Zinger Burger|Deep fried chicken fillet topped with sauces in our freshly baked braided bun|https://pizzamaster.pk/Content/images/Products/Web/zinger%20burger.JPG
+620|Burger|Beef Burger|Smashed beef patty topped with sauces in our freshly baked braided bun|https://static.fanpage.it/wp-content/uploads/sites/22/2021/09/beef-burger.jpg
+690|Burger|Corden Bleu Burger|A chicken fillet, stuffed with cheese, topped with sauces in our freshly baked braided bun|https://galbanicheese.com/wp-content/uploads/2019/09/RB_chicken-cordon-bleu-burger-e1559914791969-800x600.jpg
+620|Burger|Molten Lava Burger|A crispy breaded chicken fillet and mozarella sticks topped with sauces in our freshly baked braided bun|https://trending.pk/wp-content/uploads/2018/03/cheese-bomb-cheese-lava-burger-cafe-royale-lahore.jpg
+620|Burger|Cheeto Burger|A cheeto fried chicken fillet topped with sauces in our freshly baked braided bun|https://diyjoy.com/wp-content/uploads/2020/07/Flamin-Hot-Cheetos-Chicken-Sandwich-Recipe.jpg
+620|Burger|Fillet-o-fish|Fish fillet burger with thousand island sauce|https://freshstore.pk/Content/Products/ProductImages/12955/Fish--Burger1.jpg
+620|Burger|Mighty Zinger Burger|Double patty zinger burger|https://i1.wp.com/www.charcoalgravel.com/wp-content/uploads/2019/02/zinger-e1549975803611-500x300.jpg
+480|Pasta|Lasagna|The perfect blend of tomato & cream sauce with penne, grilled chicken olives & mushrooms|https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg
+490|Pasta|Mac n Cheese|Well, its mac N cheese!|https://www.spendwithpennies.com/wp-content/uploads/2021/10/Homemade-Mac-and-Cheese-Casserole-SpendWithPennies-12.jpg
+490|Pasta|Alfredo Fettucini|The perfect blend of our signature white sauce with Fettucine pasta, and grilled chicken along with olives|https://storage.googleapis.com/gen-atmedia/3/2017/10/c54907276a7cb6e0545ae2128bdc984e86b6cb9d.jpeg
+670|Pasta|Red Sauce Pasta|The perfect blend of tomato & cream sauce with penne, grilled chicken olives & mushrooms|https://static.toiimg.com/thumb/59695981.cms?width=1200&height=900
+510|Pasta|Ravioli Pasta|The perfect blend of tomato & cream sauce with penne, grilled chicken olives & mushrooms|https://somuchfoodblog.com/wp-content/uploads/2018/10/92628-rav4-e1587999687709-scaled.jpg
+490|Pasta|Tomato and Spinach Pasta|The perfect blend of our signature white sauce with penne, grilled chicken tomato and spinach|https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Spinach-Tomato-Pasta-bowl.jpg
+720|Pasta|Tortellini Pasta|The perfect blend of cream white sauce with spiral shaped pasta, and chunks of grilled chicken|https://images.kitchenstories.io/wagtailOriginalImages/R2415-photo-final-1/R2415-photo-final-1-large-landscape-150.jpg
+410|Pasta|Spaghetti Bolognese|The perfect blend of tomato & cream sauce with Spaghetti noodles|https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-square-FS-0204.jpg
+550|Desi|Chicken Karahi|Chicken marinated in a delicious tandori spice and yogurt blend and cooked in a karahi|https://recipe52.com/wp-content/uploads/2018/04/Chicken-Karahi-Recipe-Pakistani-1-of-1.jpg
+650|Desi|Chicken Makhni Handi|Boneless chicken marinated in a delicious tandori spice and yogurt blend and cooked in butter|https://handivn.com/wp-content/uploads/2020/03/chicken-makhni-handi.jpg
+810|Desi|Mutton Karahi|Mutton marinated in a delicious tandori spice and yogurt blend and cooked in a karahi|https://funcooking.co.uk/wp-content/uploads/2018/07/Lahori-karahi-77.jpg
+250|Desi|Biryani|Our signature biryani that is cooked to perfection with highest quality rice and chicken|https://hamariweb.com/recipes/images/recipeimages/3464.jpg
+535|Desi|Malai Boti|Smoked boneless Malai chicken pieces|https://dailydukan.pk/wp-content/uploads/2018/10/96512689_1772343479574055_6302534120815722496_n.jpg
+290|Desi|Tikka Piece|Charred chicken with bone piece, cooked on an angeethi, made fresh on order|https://tawaqqo.com/wp-content/uploads/2020/10/9-1.png
+710|Desi|Nihari|Slow-cooked beef, along with bone marrow, flavored with long pepper|https://i.ndtvimg.com/i/2017-06/nihari_650x400_81498470650.jpg
+330|Desi|Daal Mash|Delicious nutritious daal mash topped with some freshly chopped coriander leaves, green chillies and thinly sliced ginger|https://www.masala.tv/wp-content/uploads/2016/05/Masalaydaar-Daal-Mash.jpg
+425|Desserts|Chocolate Fudge Cake|Made with premium quality melted chocolate|https://static.toiimg.com/thumb/53096885.cms?width=1200&height=900
+715|Desserts|Chocolate Chip Cookies|Made with premium quality melted chocolate|https://static01.nyt.com/images/2020/10/15/dining/DL-chocolate-chip-cookies-horizontal-print/merlin_23916029_87731399-2cde-458d-997f-afdeadb76ecd-articleLarge.jpg
+475|Desserts|Gulab Jaman|A milk-solid-based sweet|https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg/1200px-Gulab_jamun_%28Gibraltar%2C_November_2020%29.jpg
+425|Desserts|Fudge Brownie|Made with premium quality melted chocolate|https://bakerbynature.com/wp-content/uploads/2020/04/Cocoa-Fudge-Brownies-1-of-1.jpg
+425|Desserts|Doughnuts|Our signature dough topped with premium quality melted chocolate|https://i2.wp.com/completelydelicious.com/wp-content/uploads/2021/02/yeast-raised-doughnuts-6.jpg
+525|Desserts|Icecream Sundae|Made with premium quality melted chocolate and gelato icecream|https://dinnerthendessert.com/wp-content/uploads/2021/02/Ice-Cream-Sundae-2.jpg
+425|Desserts|Zarda|Sweet rice with saffron, milk and sugar, and flavoured with cardamoms, raisins, pistachios and almonds|https://kfoods.com/images1/newrecipeicon/zarda_227.jpg
+615|Desserts|Halwa|Toasted semolina with pistachios and almonds|https://static.toiimg.com/thumb/61590259.cms?imgsize=482788&width=800&height=800
