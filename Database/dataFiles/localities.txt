@@ -1,0 +1,78 @@
+Lahore 29
+Model Town
+Gulberg 1
+Gulberg 2
+Gulberg 3 A1
+Gulberg 3 A2
+Gulberg 3 A3
+Gulberg 3 B1
+Gulberg 3 B2
+Gulberg 3 B3
+DHA Phase 1
+DHA Phase 2
+DHA Phase 3
+DHA Phase 4
+DHA Phase 5
+DHA Phase 6
+DHA Phase 7
+DHA Phase 8
+Faisal Town
+Johar Town
+Wapda Town
+Sui Gas Society
+Engineers Town Sector A
+Engineers Town Sector B
+Shadman
+Iqbal Town
+Samanabad
+Cantt
+Cavalry Ground
+Valencia Town
+Islamabad 10
+DHA
+Bahria Town
+Sector E-11
+Sector G-13
+Sector I-8
+Sector F-11
+Sector G-11
+Gulberg
+Bani Gala
+Green Oaks
+Karachi 7
+Azizabad
+Karimabad
+Aisha Manzil
+Ancholi
+Naseerabad
+Yaseenabad
+Jacob Lines
+Faisalabad 8
+Lyallpur Town
+Madina Town
+Jinnah Town
+Iqbal Town
+Samundri Town
+Tandianwala Town
+Jaranwala Town
+Chak Jhumra Town
+Peshawar 7
+Sethi House
+Chowk Yadgar
+Bab-e-Khyber
+Jamrud Fort
+Khyber Charsi Tikka
+Peshawar Mueseum
+Qissa Khwani Bazaar
+Quetta 5
+Quetta Avenue
+Garden Town
+Zarghoon Housing Scheme
+Qasim Bagh Town
+DHA Quetta
+Sialkot 5
+Canal City
+Chenab Garden Housing Scheme
+Royal Gardens Housing Scheme
+City Housing Scheme
+Model Housing Scheme
